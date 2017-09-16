@@ -42,6 +42,8 @@ gem 'draper'
 gem 'pundit'
 gem 'hamlit-rails'
 gem 'faker'
+gem 'react_on_rails', '~> 9.0.1'
+gem 'webpacker', '~> 3.0'
 
 
 group :development, :test do
