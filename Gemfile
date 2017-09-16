@@ -33,13 +33,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#Activeadmin
-# gem 'activeadmin'
-# # Plus integrations with:
-# gem 'devise'
-# gem 'cancan' # or cancancan
-# gem 'draper'
-# gem 'pundit'
+# Activeadmin
+gem 'activeadmin'
+# Plus integrations with:
+gem 'devise'
+gem 'cancan' # or cancancan
+gem 'draper'
+gem 'pundit'
 gem 'hamlit-rails'
 gem 'faker'
 

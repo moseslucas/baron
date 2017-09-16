@@ -20,3 +20,7 @@ for i in 1...200 do
     {name: Faker::Commerce.unique.product_name, price: Faker::Commerce.price, category_id: rand(1...10)}
   ])
 end
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+
+#AdminUser
+AdminUser.create! email: 'moses@baron.com', password: 'passw0rd'
