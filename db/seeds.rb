@@ -7,20 +7,19 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #Category
-for i in 1...10 do 
-  Category.create!([ 
-    name: Faker::Commerce.unique.department
-  ])
-end
+# for i in 1...10 do 
+#   Category.create!([ 
+#     name: Faker::Commerce.unique.department
+#   ])
+# end
 
 
 #Product
-for i in 1...200 do 
-  Product.create!([ 
-    {name: Faker::Commerce.unique.product_name, price: Faker::Commerce.price, category_id: rand(1...10)}
-  ])
-end
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+# for i in 1...200 do 
+#   Product.create!([ 
+#     {name: Faker::Commerce.unique.product_name, price: Faker::Commerce.price, category_id: rand(1...10)}
+#   ])
+# end
 
 #AdminUser
 AdminUser.create! email: 'moses@baron.com', password: 'passw0rd'
